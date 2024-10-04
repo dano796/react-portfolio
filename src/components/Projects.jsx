@@ -45,7 +45,7 @@ const Projects = () => {
                         <div className="mt-4">
                             {project.technologies.map((tech, index) => (
                                 <span key={index} className="mr-2 mt-2 rounded bg-neutral-900
-                                px-2 py-1 text-sm font-medium text-purple-700">{tech}</span>
+                                px-2 py-1 text-[14px] font-medium text-purple-700 mb-5">{tech}</span>
                             ))}
                         </div>
                     </motion.div>

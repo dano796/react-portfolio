@@ -53,7 +53,7 @@ export const PROJECTS = [
     image: project3,
     description:
       " My personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion", "JavaScript"],
+    technologies: ["React", "Tailwind CSS", "JavaScript"],
     githubLink: "https://github.com/dano796",
   },
 ];

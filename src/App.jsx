@@ -5,8 +5,13 @@ import Technologies from './components/Technologies'
 import Education from './components/Education'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import { useEffect } from 'react'
 
 const App = () => {
+  useEffect(() => {
+    document.title = "DOA Portfolio"
+  }, [])
+
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-indigo-300 selection:text-neutral-900">
       <div className="fixed top-0 -z-10 h-full- w-full inset-0">
