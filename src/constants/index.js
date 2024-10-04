@@ -2,9 +2,9 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 
-export const HERO_CONTENT = `I am a Computer Science Student at Universidad Pontificia Bolivariana, currently in my fourth semester. I am known for being organized, serious, and responsible with my duties, and for maintaining excellent interpersonal relationships. I demonstrate a positive attitude towards completing my tasks and find it easy to collaborate with others. I am open to new challenges, constantly seeking opportunities to learn and improve. I always strive for excellence in every aspect of my life.`;
+export const HERO_CONTENT = `I am a Computer Science Student at Universidad Pontificia Bolivariana, currently in my fourth semester. People who know me describe me as a organized, serious, and responsible person, and as someone who maintains excellent interpersonal relationships. I demonstrate a positive attitude towards completing my tasks and find it easy to collaborate with others. I am open to new challenges, constantly seeking opportunities to learn and improve. I always strive for excellence in every aspect of my life.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile student. Throughout my studies, I have worked with multiple programming languages, including Java, JavaScript, C#, and Python, as well as technologies like React and Microsoft SQL Server. This has allowed me to develop a strong foundation in both backend and frontend development, and I continue to deepen my skills as I tackle new projects. My journey began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. Outside of my career, I enjoy exercising, staying active, and exploring new technologies.`;
+export const ABOUT_TEXT = `I consider myself a dedicated and versatile student. Throughout my studies, I have worked with multiple programming languages, including Java, JavaScript, C#, and Python, as well as technologies like React and Microsoft SQL Server. This has allowed me to develop a strong foundation in both backend and frontend development, and I continue to deepen my skills as I tackle new projects. My journey began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. Outside of my career, I enjoy exercising, staying active, and exploring new technologies.`;
 
 export const EDUCATION = [
   {
@@ -37,7 +37,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "Automated deployment a playable piano using Git, Terraform, Docker, and AWS. This project demonstrates my ability to leverage modern DevOps practices and tools to streamline the deployment process. The project showcases how infrastructure as code (IAC) can be applied to set up environments and manage resources efficiently in the cloud.",
-    technologies: ["Git", "Terraform", "Dockerfile", "AWS",],
+    technologies: ["Terraform", "Dockerfile", "AWS",],
     githubLink: "https://github.com/dano796/ProyectoFinalDOA",
   },
   {
@@ -52,8 +52,8 @@ export const PROJECTS = [
     title: "Portfolio Website",
     image: project3,
     description:
-      " My personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React", "Tailwind CSS", "JavaScript"],
+      "My personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["React", "Tailwind", "JavaScript"],
     githubLink: "https://github.com/dano796",
   },
 ];
