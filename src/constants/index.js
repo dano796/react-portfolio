@@ -54,7 +54,7 @@ export const PROJECTS = [
     description:
       "My personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind", "JavaScript"],
-    githubLink: "https://github.com/dano796",
+    githubLink: "https://github.com/dano796/react-portfolio",
   },
 ];
 
