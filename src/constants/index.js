@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
 
 export const HERO_CONTENT = `I am a Computer Science Student at Universidad Pontificia Bolivariana, currently in my fourth semester. People who know me describe me as a organized, serious, and responsible person, and as someone who maintains excellent interpersonal relationships. I demonstrate a positive attitude towards completing my tasks and find it easy to collaborate with others. I am open to new challenges, constantly seeking opportunities to learn and improve. I always strive for excellence in every aspect of my life.`;
 
@@ -37,7 +38,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "Automated deployment a playable piano using Git, Terraform, Docker, and AWS. This project demonstrates my ability to leverage modern DevOps practices and tools to streamline the deployment process. The project showcases how infrastructure as code (IAC) can be applied to set up environments and manage resources efficiently in the cloud.",
-    technologies: ["Terraform", "Dockerfile", "AWS",],
+    technologies: ["AWS", "Terraform", "Dockerfile"],
     githubLink: "https://github.com/dano796/ProyectoFinalDOA",
   },
   {
@@ -56,6 +57,14 @@ export const PROJECTS = [
     technologies: ["React", "Tailwind", "JavaScript"],
     githubLink: "https://github.com/dano796/react-portfolio",
   },
+  {
+    title: "PriceHome",
+    image: project4,
+    description:
+      "PriceHome is a user-friendly tool designed to provide quick, accurate estimates of property market value, whether for rental or sale. By leveraging a predictive model trained on data from the Colombian real estate market, PriceHome delivers contextually relevant valuations that reflect current market trends.",
+    technologies: ["Python", "React", "FastAPI"],
+    githubLink: "https://github.com/dano796/price-home",
+  }
 ];
 
 export const CONTACT = {

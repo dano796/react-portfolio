@@ -36,7 +36,7 @@ const Hero = () => {
                         whileInView={{opacity: 1, x: 0}}
                         initial={{opacity: 0, x: -100}}
                         transition={{duration: 1.75}}
-                        className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500
+                        className='bg-gradient-to-r from-pink-300/80 via-slate-500 to-purple-500
                         text-white rounded-full px-6 py-3 text-[17px] tracking-wider font-semibold text-center 
                         p-4'>
                             View CV
