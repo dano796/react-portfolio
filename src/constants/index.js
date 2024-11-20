@@ -39,7 +39,7 @@ export const PROJECTS = [
     description:
       "Automated deployment a playable piano using Git, Terraform, Docker, and AWS. This project demonstrates my ability to leverage modern DevOps practices and tools to streamline the deployment process. The project showcases how infrastructure as code (IAC) can be applied to set up environments and manage resources efficiently in the cloud.",
     technologies: ["AWS", "Terraform", "Dockerfile"],
-    githubLink: "https://github.com/dano796/ProyectoFinalDOA",
+    githubLink: "https://github.com/dano796/virtual-piano-iac-deployment",
   },
   {
     title: "Virtual Menu App",
@@ -47,7 +47,7 @@ export const PROJECTS = [
     description:
       "Virtual menu app for a restaurant, developed as an application in Android Studio. It allows users to browse the menu, view detailed descriptions of dishes, place orders, make reservations, see the restaurant's location and rate their experience. The project highlights my skills in mobile app development and my understanding of user experience design.",
     technologies: ["Android Studio", "Java", "XML"],
-    githubLink: "https://github.com/dano796/VorazRestauranteCartaVirtualDOA",
+    githubLink: "https://github.com/dano796/voraz-restaurante-app",
   },
   {
     title: "Portfolio Website",
