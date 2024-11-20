@@ -1,8 +1,3 @@
-import { LiaJava } from "react-icons/lia";
-import { SiCsharp } from "react-icons/si";
-import { FaPython } from "react-icons/fa";
-import { FaGitAlt } from "react-icons/fa";
-import { SiMicrosoftsqlserver } from "react-icons/si";
 import { animate, motion } from "framer-motion"
 import { line } from "framer-motion/client"
 
@@ -37,35 +32,35 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             className="p-4">
-                <LiaJava className="text-7xl"/>
+                <img src="https://cdn.jsdelivr.net/npm/devicon/icons/java/java-original.svg" className="w-16 h-16" />          
             </motion.div>
             <motion.div 
             variants={iconVariants(4)}
             initial="initial"
             animate="animate"
             className="p-4">
-                <SiCsharp className="text-6xl"/>
+                <img src="https://cdn.jsdelivr.net/npm/devicon/icons/csharp/csharp-original.svg" className="w-16 h-16" />
             </motion.div>
             <motion.div 
             variants={iconVariants(3.5)}
             initial="initial"
             animate="animate"
             className="p-4">
-                <FaPython className="text-6xl"/>
+                <img src="https://cdn.jsdelivr.net/npm/devicon/icons/python/python-original.svg" className="w-16 h-16" />
             </motion.div>
             <motion.div 
             variants={iconVariants(3.25)}
             initial="initial"
             animate="animate"
             className="p-4">
-                <FaGitAlt className="text-6xl"/>
+                <img src="https://cdn.jsdelivr.net/npm/devicon/icons/git/git-original.svg" className="w-16 h-16" />
             </motion.div>
             <motion.div 
             variants={iconVariants(4.25)}
             initial="initial"
             animate="animate"
             className="p-4">
-                <SiMicrosoftsqlserver className="text-6xl"/>
+                <img src="https://cdn.jsdelivr.net/npm/devicon/icons/microsoftsqlserver/microsoftsqlserver-original.svg" className="w-16 h-16" />
             </motion.div>
         </motion.div>
     </div>
