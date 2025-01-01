@@ -71,5 +71,5 @@ export const CONTACT = {
   address: "Medellín, Colombia",
   phoneNo: "+57 305 340 44 55",
   email: "daniel.ortiza.col@upb.edu.co",
-  copyright: "© 2024 Daniel Ortiz. All rights reserved.",
+  copyright: "© 2025 Daniel Ortiz. All rights reserved.",
 };
