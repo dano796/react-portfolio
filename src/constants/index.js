@@ -69,7 +69,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Medellín, Colombia",
-  phoneNo: "+57 305 340 44 55",
-  email: "daniel.ortiza.col@upb.edu.co",
+  email: "ortizdaniel796@gmail.com",
   copyright: "© 2025 Daniel Ortiz. All rights reserved.",
 };

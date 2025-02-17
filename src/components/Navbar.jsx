@@ -11,7 +11,7 @@ const Navbar = () => {
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl text-neutral-100">
         <a 
-          href="https://www.linkedin.com/in/daniel-ortiz-aristizábal/" 
+          href="https://www.linkedin.com/in/daniel-ortiza/" 
           target="_blank" 
           rel="noopener noreferrer"
           className="hover:text-neutral-300 active:text-neutral-400">

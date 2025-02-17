@@ -35,6 +35,13 @@ const Technologies = () => {
                 <img src="https://cdn.jsdelivr.net/npm/devicon/icons/java/java-original.svg" className="w-16 h-16" />          
             </motion.div>
             <motion.div 
+            variants={iconVariants(3.5)}
+            initial="initial"
+            animate="animate"
+            className="p-4">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" className="w-16 h-16" />          
+            </motion.div>
+            <motion.div 
             variants={iconVariants(4)}
             initial="initial"
             animate="animate"
